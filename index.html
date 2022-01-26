@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">   
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Игра МЕМО онлайн</title>
+</head>
+<body>
+
+<!-- Скрытое сообщение о победе -->
+<div id="win" class="hide">
+    <img src="images/menu/win.jpg" alt="Победа!">
+    <div id="restart"><img src="images/menu/restart.png" alt="Сыграть еще раз!" title="Сыграть еще раз!"></div>
+</div>
+<!-- END -->
+
+<!-- Меню -->
+<header>
+    <div id="animals" class="left-menu active">
+        <img src="images/menu/panda.png" alt="Категория &#171;животные&#187;" title="Категория &#171;животные&#187;"></div>
+    <div id="fruits" class="left-menu">
+        <img src="images/menu/orange.png" alt="Категория &#171;фрукты&#187;" title="Категория &#171;фрукты&#187;"></div>
+    <div id="flowers" class="left-menu">
+        <img src="images/menu/flower.png" alt="Категория &#171;цветы&#187;" title="Категория &#171;цветы&#187;"></div>
+
+    <h1>М<span class="green">Е</span>МО</h1>
+
+    <div id="8" class="right-menu active" title="8 карточек"><img src="images/menu/8.png" alt="8 карточек">8</div>
+    <div id="16" class="right-menu " title="16 карточек"><img src="images/menu/16.png" alt="16 карточек">16</div>
+    <div id="32" class="right-menu" title="32 карточки"><img src="images/menu/32.png" alt="32 карточки">32</div>
+</header>
+<!-- END -->
+
+<!-- Контенер с каточками -->
+<div id="container"></div>
+<!-- END -->
+
+<script src="script.js"></script>
+</body>
+</html>
+
